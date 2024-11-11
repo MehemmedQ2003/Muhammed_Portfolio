@@ -1,0 +1,163 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Muhammed Gardashov!**"
+        },
+
+        "az": {
+            "title": "Xoş gəlmisiniz!",
+            "title_menu": "Haqqımda",
+            "title_long_prefix": "Salam...",
+            "title_long": "Mən **Məhəmməd Qardaşov!**"
+        },
+
+        "tr": {
+            "title": "Hoş geldiniz!",
+            "title_menu": "Hakkımda",
+            "title_long_prefix": "Merhaba...",
+            "title_long": "Ben **Muhammed Kardaşov!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "az": {},
+                "tr": {}
+            },
+
+            "items": [
+                {
+                    "value": "Azerbaijan - Baku",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "mehemmed.qardasov2003@gmail.com",
+                    "links": [
+                        {"href": "mailto:mehemmed.qardasov2003@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@MehemmedQ2003",
+                    "links": [
+                        {"href": "https://github.com/MehemmedQ2003"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "az": {"title": "**Bir az** haqqımda..."},
+                "tr": {"title": "**Biraz** hakkımda..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I have been learning and working on projects as a Frontend Developer for more than 2 years. I am responsible in my work. I prefer design and codes. From frontend languages, I know HTML, CSS, JavaScript, REACT.JS, BOOTSTRAP, Tailwind CSS, VITE.JS</b></p>"},
+                        "az": {"text": "<p>Mən 2 ildən artıq olar ki, Frontend Developer olaraq həm öyrənirəm həm də əlavə olaraq proyektlər üzərində çalışıram. Öz işimdə məsuliyyətliyəm. Dizayna və kodlara üstünlük verirəm. Frontend Dillərindən HTML, CSS, JavaScript, REACT.JS, BOOTSTRAP, Tailwind CSS, VITE.JS dillərini bilirəm</b></p>"},
+                        "tr": {"text": "<p>2 yılı aşkın süredir Frontend Developer olarak projeler üzerinde öğreniyorum ve çalışıyorum. İşimde sorumluluk sahibiyim. Tasarımı ve kodları tercih ediyorum. Frontend dillerden HTML, CSS, JavaScript, REACT.JS, BOOTSTRAP, Tailwind CSS, VITE.JS biliyorum</b></p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "az": { "title": "Şəxsi **maraqlar**" },
+                "tr": { "title": "Kişisel **ilgi alanları**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Reading book",
+                            "info": "I love reading books about Islam."
+                        },
+                        "az": {
+                            "title": "Kitab oxumaq",
+                            "info": "İslam dini ilə bağlı kitablar oxumağı çox sevirəm."
+                        },
+                        "tr": {
+                            "title": "Kitap okumak",
+                            "info": "İslam dini ile ilgili kitap okumayı seviyorum."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-horse",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Horse riding",
+                            "info": "I also love horse riding."
+                        },
+                        "az": {
+                            "title": "At sürmək",
+                            "info": "Həmçinin at sürməyidə çox sevirəm."
+                        },
+                        "tr": {
+                            "title": "At binmek",
+                            "info": "Ata binmeyi seviyorum."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

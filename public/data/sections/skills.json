@@ -1,0 +1,333 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        },
+        "az": {
+            "title": "Bacarıqlar",
+            "title_long_prefix": "Kəşf et",
+            "title_long": "Mənim **Bacarıq Setim**"
+        },
+        "tr": {
+            "title": "Yetenekler",
+            "title_long_prefix": "Keşfet",
+            "title_long": "Benim **Yetenek Setim**"
+        }
+    },
+    "articles": [
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Frontend"
+                },
+                "az": {
+                    "title": "Frontend"
+                },
+                "tr": {
+                    "title": "Frontend"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {
+                            "bg": "#E34F26",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": "10/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        },
+                        "az": {
+                            "title": "HTML5",
+                            "info": null
+                        },
+                        "tr": {
+                            "title": "HTML5",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {
+                            "bg": "#1572B6",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "10/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        },
+                        "az": {
+                            "title": "CSS3",
+                            "info": null
+                        },
+                        "tr": {
+                            "title": "CSS3",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {
+                            "bg": "#F7DF1E",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "info": null
+                        },
+                        "az": {
+                            "title": "JavaScript ES6+",
+                            "info": null
+                        },
+                        "tr": {
+                            "title": "JavaScript ES6+",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "06/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        },
+                        "az": {
+                            "title": "React",
+                            "info": null
+                        },
+                        "tr": {
+                            "title": "React",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {
+                            "bg": "#7952B3",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "10/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        },
+                        "az": {
+                            "title": "Bootstrap",
+                            "info": null
+                        },
+                        "tr": {
+                            "title": "Bootstrap",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-vuejs",
+                        "faColors": {
+                            "bg": "#41B883",
+                            "fill": "#000"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "10/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vue Js",
+                            "info": null
+                        },
+                        "az": {
+                            "title": "Vue Js",
+                            "info": null
+                        },
+                        "tr": {
+                            "title": "Vue Js",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "az": {
+                    "title": "Dillər"
+                },
+                "tr": {
+                    "title": "Diller"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#9DFF8E",
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Azerbaijani",
+                            "info": "Fluent in both spoken and written Azerbaijani; confident in professional communication.",
+                            "tags": [
+                                "Native"
+                            ]
+                        },
+                        "az": {
+                            "title": "Azərbaycan",
+                            "info": "Danışıq və yazılı Azərbaycan dilində sərbəst; peşəkar ünsiyyətdə özünə güvənir.",
+                            "tags": [
+                                "Ana dil"
+                            ]
+                        },
+                        "tr": {
+                            "title": "Azerice",
+                            "info": "Konuşma ve yazılı Azerice'de akıcı; profesyonel iletişimde kendine güveniyor.",
+                            "tags": [
+                                "Ana dil"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#9DFF8E",
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Turkish",
+                            "info": "Basic understanding of Turkish; learning and improving.",
+                            "tags": [
+                                "Fluent"
+                            ]
+                        },
+                        "az": {
+                            "title": "Türk",
+                            "info": "Türk dilini başa düşmək; öyrənir və inkişaf edir.",
+                            "tags": [
+                                "Sərbəst"
+                            ]
+                        },
+                        "tr": {
+                            "title": "Türkçe",
+                            "info": "Temel Türkçe anlayışı; öğreniyor ve geliştiriyor.",
+                            "tags": [
+                                "Serbest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#9DFF8E",
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "2nd language I want to learn.",
+                            "tags": [
+                                "Normal"
+                            ]
+                        },
+                        "az": {
+                            "title": "İngilis",
+                            "info": "Öyrənmək istədiyim 2-ci dil.",
+                            "tags": [
+                                "Normal"
+                            ]
+                        },
+                        "tr": {
+                            "title": "İngilizce",
+                            "info": "Öğrenmek istediğim 2. dil.",
+                            "tags": [
+                                "Normal"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+        "az": {
+            "title": "Təhsil",
+            "title_long_prefix": "Bu mənim",
+            "title_long": "**Təhsil** Fondu"
+        },
+        "tr": {
+            "title": "Eğitim",
+            "title_long_prefix": "Bu benim",
+            "title_long": "**Eğitim** Geçmişim"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/15/2021",
+                        "end": "05/31/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Industrial Engineering",
+                            "info": "ZU",
+                            "text": "Earned a Bachelor's degree in Industrial Engineering, focusing on industry and software engineering.",
+                            "tags": []
+                        },
+                        "az": {
+                            "title": "**Bakalavr** SSənaye Mühəndisliyi üzrə",
+                            "info": "ZU",
+                            "text": "Sənaye və proqram mühəndisliyinə fokuslanaraq, Sənaye Mühəndisliyi üzrə bakalavr dərəcəsi aldım.",
+                            "tags": []
+                        },
+                        "tr": {
+                            "title": "**Lisans** Endüstri Mühendisliği",
+                            "info": "ZU",
+                            "text": "Endüstri ve yazılım mühendisliğine odaklanarak, Endüstri Mühendisliği alanında lisans diploması aldım.",
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "10/01/2022",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "WEB Development(FrontEnd)",
+                            "info": "Software",
+                            "text": "Completed an intensive Nanodegree program focused on PHP development, covering essential skills like backend programming, database management, and web application deployment. This course provided a solid foundation in modern PHP practices.",
+                            "tags": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "TAILWIND CSS", "TYPESCRIPT", "REACT.JS", "VITE.JS"]
+                        },
+                        "az": {
+                            "title": "**VEB** İnkişafı (Frontend)",
+                            "info": "Proqram təminatı",
+                            "text": "PHP inkişafına yönəlmiş intensiv Nanogrado proqramını tamamladım, arxa uç proqramlaşdırma, verilənlər bazası idarəetməsi və veb tətbiqlərin yerləşdirilməsi kimi əsas bacarıqları əhatə edir. Bu kurs müasir PHP təcrübələrində möhkəm bir əsas təmin etdi.",
+                            "tags": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "TAILWIND CSS", "TYPESCRIPT", "REACT.JS", "VITE.JS"]
+                        },
+                        "tr": {
+                            "title": "**WEB** Geliştirme (Frontend)",
+                            "info": "Yazılım",
+                            "text": "PHP geliştirmeye odaklanan yoğun bir Nanodiploma programını tamamladım, arka uç programlama, veritabanı yönetimi ve web uygulaması dağıtımı gibi temel becerileri kapsıyor. Bu kurs modern PHP uygulamalarında sağlam bir temel sağladı.",
+                            "tags": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "TAILWIND CSS", "TYPESCRIPT", "REACT.JS", "VITE.JS"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

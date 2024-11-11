@@ -1,0 +1,146 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "az": {
+            "title": "Portfel",
+            "title_long_prefix": "Baxın",
+            "title_long": "Mənim **Portfelim**"
+        },
+
+        "tr": {
+            "title": "Portföy",
+            "title_long_prefix": "Göz atın",
+            "title_long": "Benim **Portföyüm**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "frontend",
+                    "locales": {
+                        "en": {"singular": "Frontend", "plural": "Frontend"},
+                        "az": {"singular": "Frontend", "plural": "Frontend"},
+                        "tr": {"singular": "Frontend", "plural": "Frontend"}
+                    }
+                },
+                {
+                    "id": "fullstack",
+                    "locales": {
+                        "en": {"singular": "Full-Stack", "plural": "Full-Stack"},
+                        "az": {"singular": "Full-Stack", "plural": "Full-Stack"},
+                        "tr": {"singular": "Full-Stack", "plural": "Full-Stack"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "frontend",
+                    "icon": {
+                        "img": "images/pictures/islamic_quiz_logo.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/MehemmedQ2003/Quiz_Project"},
+                        {"faIcon": "fa-brands fa-web-awesome", "href": "https://quizmaster-mq.netlify.app/"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Quiz Project",
+                            "text": "Islamic Test built with React (Vite js). Here you can enter the categories of Islamic tests and answer the questions.",
+                            "tags": ["React", "Vite"]
+                        },
+                        "az": {
+                            "title": "Quiz Proyekti",
+                            "text": "İslami Test React(Vite js) ilə yığılmışdır. Burada siz İslami testlərin kateqoriyalarından girib suallara cavab verə bilərsiniz.",
+                            "tags": ["React", "Vite"]
+                        },
+                        "tr": {
+                            "title": "Quiz Projesi",
+                            "text": "React (Vite js) ile oluşturulmuş İslami Test. Burada İslami testlerin kategorilerine girip soruları cevaplayabilirsiniz.",
+                            "tags": ["React", "Vite"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "frontend",
+                    "icon": {
+                        "img": "images/pictures/project-logo-6.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/MehemmedQ2003/woodmart-xtemos"},
+                        {"faIcon": "fa-brands fa-web-awesome", "href": "https://woodmart-xtemos-shopping.netlify.app/"}
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "Woodmart Xtemos",
+                            "text": "This was built just for design. More use was made of the SASS application.",
+                            "tags": ["React"]
+                        },
+                        "az": {
+                            "title": "Woodmart Xtemos",
+                            "text": "Bu sadəcə dizayn üçün yığılmışdır. SASS tətbiqindən daha ço istifadə edilmişdir",
+                            "tags": ["React"]
+                        },
+                        "tr": {
+                            "title": "Woodmart Xtemos",
+                            "text": "Bu sadece tasarım için oluşturulmuştur. SASS uygulamasından daha fazla yararlanılmıştır.",
+                            "tags": ["React"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "frontend",
+                    "icon": {
+                        "img": "images/pictures/calculator-icon.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/MehemmedQ2003/Zakat_Calculator"},
+                        {"faIcon": "fa-brands fa-web-awesome", "href": "https://zakat-calculator-web.vercel.app/"}
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "Zakat Calculator",
+                            "text": "On this site, you can calculate zakat, which is one of the five conditions of Islam. May Allah (swt) accept your zakat.",
+                            "tags": ["HTML", "CSS", "JS"]
+                        },
+                        "az": {
+                            "title": "Zəkat Kalkulyator",
+                            "text": "Bu saytda İslamın büş şərtindən biri olan zəkatı hesablaya bilərsiniz. Allah(svt) verdiyiniz zəkatınızı qəbul etsin.",
+                            "tags": ["HTML", "CSS", "JS"]
+                        },
+                        "tr": {
+                            "title": "Zekat Hesaplayıcı",
+                            "text": "Bu sitede İslam'ın beş şartından biri olan zekat hesaplamasını yapabilirsiniz. Allah (svt) zekatlarınızı kabul etsin.",
+                            "tags": ["HTML", "CSS", "JS"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "az": {
+            "title": "Əlaqə",
+            "title_long_prefix": "Çəkinməyin",
+            "title_long": "**Mənimlə** əlaqə saxlayın"
+        },
+
+        "tr": {
+            "title": "İletişim",
+            "title_long_prefix": "Çekinmeyin",
+            "title_long": "**Benimle** iletişime geçin"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "az": {"title": "Mənə bir **mesaj** göndərin"},
+                "tr": {"title": "Bana bir **mesaj** gönderin"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "az": {"title": "Yoxsa **üstünlük** verirsinizsə..."},
+                "tr": {"title": "Ya da **tercih** ediyorsanız..."}
+            },
+
+            "items": [
+                {
+                    "value": "+994 55 713 52 90",
+                    "links": [
+                        {"href": "tel:+994557135290"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "az": {"title": "Telefon"},
+                        "tr": {"title": "Telefon"}
+                    }
+                },
+
+                {
+                    "value": "mehemmed.qardasov2003@gmail.com",
+                    "links": [
+                        {"href": "mailto:mehemmed.qardasov2003@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "az": {"title": "E-poçt"},
+                        "tr": {"title": "E-posta"}
+                    }
+                },
+
+                {
+                    "value": "Muhammed Gardashov",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/mehemmed-qardasov-6ba49a235/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"},
+                        "tr": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "Muhammed Gardashov",
+                    "links": [
+                        {"href": "https://www.facebook.com/profile.php?id=100049465160692"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-facebook",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Facebook"},
+                        "tr": {"title": "Facebook"}
+                    }
+                },
+
+                {
+                    "value": "@qardasovmehemmed11",
+                    "links": [
+                        {"href": "https://www.instagram.com/qardasovmehemmed11/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "tr": {"title": "Instagram"}
+                    }
+                },
+
+                {
+                    "value": "@mehemmedq11",
+                    "links": [
+                        {"href": "https://x.com/mehemmedq11"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-twitter",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Twitter"},
+                        "tr": {"title": "Twitter"}
+                    }
+                }
+            ]
+        }
+    ]
+}

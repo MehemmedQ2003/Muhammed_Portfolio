@@ -1,0 +1,64 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "az": {
+            "title": "Təcrübə",
+            "title_long_prefix": "Mənim",
+            "title_long": "**İş** Təcrübəsi"
+        },
+
+        "tr": {
+            "title": "Deneyim",
+            "title_long_prefix": "Özetim",
+            "title_long": "**İş** Deneyimi"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2016",
+                        "end": "06/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Frontend** Developer",
+                            "info": "Software Village",
+                            "text": "I recently developed NFT marketing, Woodmart Xtemos websites in Frontend Languages.",
+                            "tags": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "TAILWIND CSS", "TYPESCRIPT", "REACT.JS", "VITE.JS"]
+                        },
+                        "az": {
+                            "title": "**Frontend** İnkişaf etdirici",
+                            "info": "Software Village",
+                            "text": "Son zamanlarda NFT marketinqi, Woodmart Xtemos veb saytlarını Frontend dillərində inkişaf etdirdim.",
+                            "tags": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "TAILWIND CSS", "TYPESCRIPT", "REACT.JS", "VITE.JS"]
+                        },
+                        "tr": {
+                            "title": "**Frontend** Geliştirici",
+                            "info": "Software Village",
+                            "text": "Son zamanlarda NFT pazarlama, Woodmart Xtemos web sitelerini Frontend dillerinde geliştirdim.",
+                            "tags": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "TAILWIND CSS", "TYPESCRIPT", "REACT.JS", "VITE.JS"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
